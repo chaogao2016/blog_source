@@ -595,7 +595,7 @@ comments:
 # Disqus
 disqus:
   enable: false
-  shortname:
+  shortname: 
   count: true
   #post_meta_order: 0
 
@@ -867,7 +867,7 @@ pace:
 # Dependencies: https://github.com/theme-next/theme-next-three
 three:
   enable: false
-  three_waves: false
+  three_waves: true
   canvas_lines: false
   canvas_sphere: false
 
