@@ -261,11 +261,22 @@ post_meta:
   categories: true
 
 # Post wordcount display settings
+# Dependencies: https://github.com/willin/hexo-wordcount
+post_wordcount:
+  item_text: true
+  wordcount: true         # 单篇 字数统计
+  min2read: true          # 单篇 阅读时长
+  totalcount: true        # 网站 字数统计
+  separated_meta: true
+
+# Post wordcount display settings
 # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
 symbols_count_time:
   separated_meta: true
   item_text_post: true
   item_text_total: false
+  awl: 4
+  wpm: 275
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
 tag_icon: false
@@ -594,8 +605,8 @@ comments:
 
 # Disqus
 disqus:
-  enable: false
-  shortname: 
+  enable: true
+  shortname: chaogao2016
   count: true
   #post_meta_order: 0
 

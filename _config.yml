@@ -101,6 +101,12 @@ archive_generator: #归档页的配置
 ## Themes: https://hexo.io/themes/
 theme: next
 
+symbols_count_time:
+	symbols: true
+	time: true
+	total_symbols: true
+	total_time: true
+  
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
