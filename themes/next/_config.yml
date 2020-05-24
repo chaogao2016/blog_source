@@ -724,7 +724,7 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: true
   total_visitors_icon: user
   total_views: true
@@ -1003,6 +1003,21 @@ vendors:
   # Internal version: 1.0.0
   # canvas_ribbon: //cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-ribbon@1/canvas-ribbon.js
   canvas_ribbon:
+
+# 效果：本站访客数12345人次
+site_uv: true
+site_uv_header: 本站访客数
+site_uv_footer: 人次
+
+# 效果：本站总访问量12345次
+site_pv: true
+site_pv_header: 本站总访问量
+site_pv_footer: 次
+
+# 效果：本文总阅读量12345次
+page_pv: true
+page_pv_header: 本文总阅读量
+page_pv_footer: 次
 
 # Assets
 css: css
